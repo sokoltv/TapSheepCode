@@ -1,0 +1,18 @@
+Privacy Policy
+
+This Privacy Policy describes how TapSheep ("the App") handles your information.
+
+Information Collection and Use
+The App does not collect, store, or transmit any personal data or personally identifiable information from its users. All functionalities of the App are performed locally on your device.
+
+Data Storage
+The App does not store any user data. Any settings or app-related data are stored locally on your device and are deleted when you uninstall the App.
+
+Third-Party Services
+The App does not use any third-party services that could collect information from you.
+
+Changes to This Privacy Policy
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. These changes are effective immediately after they are posted on this page.
+
+Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us. (Note: As a developer, you should provide a contact email here for the Play Store listing).

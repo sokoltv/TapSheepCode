@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TapSheep</string>
+        <!-- other strings -->
+    <string name="settings">Settings</string>
+    <string name="sheep_image_description">A clickable sheep image</string>
+
+        <!-- Add this line -->
+    <string name="meadow_background_description">A beautiful meadow background</string>
+    <string name="_ver">Version</string>
+    <string name="_verError">Could not get app version</string>
+    <string name="_accept">Confirmation</string>
+    <string name="_messageReset">Are you sure you want to reset the tap counter? This action cannot be undone.</string>
+    <string name="_messagePositiveB">Yes, RESET</string>
+    <string name="_messageNegativeB">NO</string>
+    <string name="_toastMessReset">Counter reset</string>
+    <string name="privpol">Privacy Police</string>
+    <string name="verapp">Version App</string>
+    <string name="resetbuttontext">Reset Tap Count</string>
+</resources>

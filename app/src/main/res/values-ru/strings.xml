@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Тыкни Барана</string>
+    <string name="settings">Настройки</string>
+    <string name="sheep_image_description">Кликабельная картинка с бараном</string>
+    <string name="meadow_background_description">Задний фон с зеленным лугом, речка, горы на заднем плене, светит солнце</string>
+    <string name="_ver">Версия</string>
+    <string name="_verError">Ошибика Анлак</string>
+    <string name="_accept">Потверждение</string>
+    <string name="_messageReset">Вы уверены, что хотите сбросить счетчик тапов? Это действие нельзя отменить.</string>
+    <string name="_messagePositiveB">Да, сбросить</string>
+    <string name="_messageNegativeB">Неа</string>
+    <string name="_toastMessReset">Счётчик Сброшен</string>
+    <string name="privpol">Политика конфиденциальности</string>
+    <string name="verapp">Верисия Приложения</string>
+    <string name="resetbuttontext">Сбросить счётсик тапов</string>
+</resources>
