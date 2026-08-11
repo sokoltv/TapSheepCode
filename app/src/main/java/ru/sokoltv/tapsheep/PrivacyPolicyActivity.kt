@@ -2,15 +2,25 @@ package ru.sokoltv.tapsheep
 
 import android.os.Bundle
 import android.widget.TextView
+import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
 import java.io.BufferedReader
 import java.io.InputStreamReader
 
 class PrivacyPolicyActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_privacy_policy)
+
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.privacy_root)) { v, insets ->
+            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
+            insets
+        }
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         title = "Privacy Policy"

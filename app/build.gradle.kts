@@ -1,18 +1,17 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
 }
 
 android {
     namespace = "ru.sokoltv.tapsheep"
-    compileSdk = 35
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "ru.sokoltv.tapsheep"
         minSdk = 33
-        targetSdk = 35
-        versionCode = 3
-        versionName = "1.0.2"
+        targetSdk = 37
+        versionCode = 4
+        versionName = "26.08"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -30,9 +29,7 @@ android {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
     }
-    kotlinOptions {
-        jvmTarget = "11"
-    }
+    compileSdkMinor = 0
 }
 
 dependencies {
